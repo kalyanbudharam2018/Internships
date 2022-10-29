@@ -46,35 +46,35 @@ Performed EDA on the cleaned data and got various insights, relationships, etc, 
 
 ![image](https://user-images.githubusercontent.com/112246352/198828807-2ad0afb4-bc9b-423e-9a34-14af3fe81d3f.png)
 
-## Model Building 
-
-First, I transformed the categorical variables into dummy variables, then scaled with standard scaler from sk-learn. I also split the data into train and tests sets with a test size of 20%.   
-
-I tried Logistic Regression model and evaluated using Mean Absolute Error. I chose MAE because it is relatively easy to interpret and outliers aren’t particularly bad in for this type of model.   
-
-I tried three different models:
-*	**Logistic Regression** – for prediction of categorical outcomes, with the sparsity associated with the data, I thought that this would be a good fit.  
-
-## Model performance
-The Logistic Regression model far outperformed the other approaches on the test and validation sets. 
-*	**Logistic Regression** : MAE = 24%
 
 
 
-## Productionization 
-In this step, I saved the prepared model using pickle module for further deploymnet. Then Created a absenteeism_module for deployment.Finally, Analyzed the Predicted Outputs in Tableau for various variables.
+## Analytics and commercial application
+ 
+In this task, I saved the prepared files for further application. From previous tasks, I prepared a report for the client and the Category Manager. Report mainly consists of following details:
+### Chips Category Review
+● Chips transactions increase substantially prior to Christmas. It is a good time totake advantage of this momentum with promotional offers.
+● Older and Young Family segment have the highest average purchase units per
+unique customer.
+● Sales mainly came from Budget - older families, Mainstream - young
+singles/couples, and Mainstream -retirees. In total contributing 25% of sales
+revenue.
+
+### Trial Store Analysis
+● Trial store 77 and 86 experienced significant increase in Total Sales and
+Customers quantity during the trial period compared to their control stores..
+● Trial store 88 experience increase as well, but insignificant compared to
+its’ Control store.
+
 
 
 
 ## Code and Resources Used 
 **Python Version:** 3.7  
-**Packages:** pandas, numpy, sklearn, pickle
+**Packages:** pandas, numpy, seaborn, matplotlib
 
-**The Data Science Course 2022: Complete Data Science Bootcamp**
-https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/
-
-**Ken Jee Youtube channel**
-https://www.youtube.com/c/KenJee1
+**PWC_Forage website**
+https://www.theforage.com/virtual-internships/NkaC7knWtjSbi6aYv?ref=GoP4G9dwRbsQ3n9PB
 
 
 
