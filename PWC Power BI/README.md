@@ -1,4 +1,4 @@
-# PWC Analytics Power BI Power BI in Data Analytics Virtual Case Experience
+# PWC Analytics Power BI in Data Analytics Virtual Case Experience
 I have worked on 3 datasets (for each task) which are as follows:
 * Call Centre data, 
 * Churn data,
