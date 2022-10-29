@@ -19,7 +19,7 @@ Brief information about the completed tasks:
 This task consists of introduction to PWC firm, their upskilling programs, Power BI technology, so on.
 
 
-### Call Centre Trends
+### 2 Call Centre Trends
 This task includes, create a dashboard in Power BI for Claire that reflects all relevant Key Performance Indicators (KPIs) and metrics in the dataset. 
 
 Possible KPIs include (to get you started, but not limited to):
@@ -31,16 +31,16 @@ Possible KPIs include (to get you started, but not limited to):
 * Agent’s performance quadrant -> average handle time (talk duration) vs calls answered
 
 
-* The data consists following features(size_5000 x 9):
+The data consists following features(size_5000 x 9):
 * Call Id,
-*Agent,
-Date,	
-Time,
-Topic	Answered (Y/N),
-Resolved,
-Speed of answer in seconds,
-AvgTalkDuration,
-Satisfaction rating.
+* Agent,
+* Date,	
+* Time,
+* Topic	Answered (Y/N),
+* Resolved,
+* Speed of answer in seconds,
+* AvgTalkDuration,
+* Satisfaction rating.
 
 
 
