@@ -1,14 +1,22 @@
-# PWC Analytics Power BI in Data Analytics Virtual Case Experience
+# PWC Power BI in Data Analytics Virtual Case Experience
 I have worked on 3 datasets (for each task) which are as follows:
 * Call Centre data, 
 * Churn data,
 * Diversity Inclusion data
 
-This program includes following practical tasks which are successfully completed by me:
+This program includes following practical tasks:
 * Introduction
 * Call Centre Trends
 * Customer Retention
 * Diversity & Inclusion
+
+
+The above mentioned tasks successfully completed with the help of:
+* Calculating Measures, Filters
+* Defining KPIs 
+* Charts
+* Dashboards
+
 
 Brief information about the completed tasks:
 
