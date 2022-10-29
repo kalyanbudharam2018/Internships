@@ -1,17 +1,14 @@
 # PWC Analytics Power BI Power BI in Data Analytics Virtual Case Experience
-I have worked on 3 datasets which are as follows:
+I have worked on 3 datasets (for each task) which are as follows:
 * Call Centre data, 
 * Churn data,
 * Diversity Inclusion data
 
-
 This program includes following practical tasks which are successfully completed by me:
-
 * Introduction
 * Call Centre Trends
 * Customer Retention
 * Diversity & Inclusion
-
 
 Brief information about the completed tasks:
 
@@ -20,7 +17,7 @@ This task consists of introduction to PWC firm, their upskilling programs, Power
 
 
 ### 2 Call Centre Trends
-This task includes, create a dashboard in Power BI for Claire that reflects all relevant Key Performance Indicators (KPIs) and metrics in the dataset. 
+This task includes, create a dashboard in Power BI for Claire that reflects all relevant Key Performance Indicators (KPIs) and metrics in the  dataset. 
 
 Possible KPIs include (to get you started, but not limited to):
 
@@ -43,23 +40,70 @@ The data consists following features(size_5000 x 9):
 * Satisfaction rating.
 
 
+### 3 Customer Retention
+In this task, I did all the following activities on the Churn dataset:
+
+* Define proper KPIs
+* Create a dashboard for the retention manager reflecting the KPIs
+* Write a short email to him (the engagement partner) explaining your findings, and include suggestions as to what needs to be changed 
+
+The data consists following features (size_7044 x 23):
+* customerID	
+* gender	
+* SeniorCitizen	
+* Partner	
+* Dependents	
+* tenure	
+* PhoneService	
+* MultipleLines	
+* InternetService	
+* OnlineSecurity	
+* OnlineBackup	
+* DeviceProtection	
+* TechSupport	
+* StreamingTV	
+* StreamingMovies	
+* Contract	
+* PaperlessBilling	
+* PaymentMethod	
+* MonthlyCharges	
+* TotalCharges	
+* numAdminTickets	
+* numTechTickets	
+* Churn
+
+
+### 4 Diversity & Inclusion
+
+In this task, I did all the following activities on the Diversity & Inclusion dataset:
+
+* Define relevant KPIs in hiring, promotion, performance and turnover, and create a visualisation
+* Write what you think some root causes of their slow progress might be
+
+
+The data consists following features (size_500 x 11):
+* RAND	
+* Employee ID	
+* GENDER	
+* GRADE	
+* FUNCTION	
+* OC_RATE	
+* PERFORM	
+* Y_GRADE	
+* AGE	Y_SERVIC	
+* Nationality	
+* Rank 2
 
 
 
+## Software and Resources Used 
 
+**Software:** 
+Power BI, Microsoft-Excel
 
+**PWC_Forage website**
+https://www.theforage.com/virtual-internships/a87GpgE6tiku7q3gu?ref=GoP4G9dwRbsQ3n9PB
 
-
-
-## Code and Resources Used 
-**Python Version:** 3.7  
-**Packages:** pandas, numpy, sklearn, pickle
-
-**The Data Science Course 2022: Complete Data Science Bootcamp**
-https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/
-
-**Ken Jee Youtube channel**
-https://www.youtube.com/c/KenJee1
 
 
 
