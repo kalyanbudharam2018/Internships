@@ -73,7 +73,7 @@ its’ Control store.
 **Python Version:** 3.7  
 **Packages:** pandas, numpy, seaborn, matplotlib
 
-**PWC_Forage website**
+**Quantium_Forage website**
 https://www.theforage.com/virtual-internships/NkaC7knWtjSbi6aYv?ref=GoP4G9dwRbsQ3n9PB
 
 
