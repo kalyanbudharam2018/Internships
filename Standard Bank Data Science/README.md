@@ -38,51 +38,58 @@ This dataset is taken from Kaggle which is famous for it employment service and 
 ## Data Cleaning
 After collecting the data, I needed to clean it up so that it was usable for our model. I made the following changes and created the following variables:
 
-*	Dropping unnecessary ID column from dataset
-*	Created dummies for Reason for Absence column, later grouped and added into 4 category columns
-*	Reordered the 4 reason columns like original dataset order
-*	Converted date string data type to datetime datatype 
-*	Made a new columns for Month value and Day of the week
+*	Dropped unnecessary Loan_ID column from dataset
+*	Did some one hot encoding for categorical columns
+*	Reordered the columns like original dataset order
+*	Updated the null values with their mean, mode values and some deleted
 *	And made many more changes which can be viewed in the pre-processed data csv
 
 ## Exploratory Data Analysis (EDA)
 Performed EDA on the cleaned data and got various insights, relationships, etc, few of them are as below.
 
-* There are total 700 rows and 14 columns after pre-processed data
-* There are total 28 unique type of values presents in the Reason for absence column
-* 4 types of values presents in the Education column, highest being the value 1
+* Loan status details are as follows.
+  Y    68.7296%
+  N    31.2704%
+  
+Gender  Loan_Status    %
+Female  Y              66.9643
+        N              33.0357
+Male    Y              69.3252
+        N              30.6748
+        
+![download](https://user-images.githubusercontent.com/112246352/203770363-fdac9810-83a0-4864-82f0-dc29f771836f.png)
+
+
+![download](https://user-images.githubusercontent.com/112246352/203770528-ae63b975-b17a-4f81-b6fc-1769fbf392be.png)
 
 
 ## Model Building 
 
-First, I transformed the categorical variables into dummy variables, then scaled with standard scaler from sk-learn. I also split the data into train and tests sets with a test size of 20%.   
+First, I transformed the categorical variables into dummy variables, then scaled with standard scaler from sk-learn and the datasets are already splits into train and test sets.   
 
-I tried Logistic Regression model and evaluated. 
+I tried different Machine Learning models:
+*	** Auto ML wth autosklearn** – for prediction of categorical outcomes and no need much pre-processing.
+*	** Random Forest Classifier **  - for prediction of categorical outcomes, with the sparsity associated with the data and for easy interpretation. 
 
-I tried Logistic regression model:
-*	**Logistic Regression** – for prediction of categorical outcomes, with the sparsity associated with the data, I thought that this would be a good fit.  
 
 ## Model performance
-The Logistic Regression model performed good on the test and validation sets. 
-*	**Logistic Regression** : 73%
+The models performed good on the test and validation sets and the results are as given below. 
+	                   **AutoML**     **Random Forest Classifier**
+**Accuracy**           79%            77%
+
 
 
 
 ## Productionization 
-In this step, I saved the prepared model using pickle module for further deploymnet. Then Created a absenteeism_module for deployment.Finally, Analyzed the Predicted Outputs in Tableau for various variables.
-
+In this step, I saved the prepared model using pickle module for further deploymnet and application. 
 
 
 ## Code and Resources Used 
 **Python Version:** 3.7  
-**Packages:** pandas, numpy, sklearn, pickle
+**Packages:** pandas, numpy, auto-sklearn, sklearn, pickle
 
-**The Data Science Course 2022: Complete Data Science Bootcamp**
-https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/
-
-**Ken Jee Youtube channel**
-https://www.youtube.com/c/KenJee1
-
+**Standard_Bank_Forage website** 
+https://www.theforage.com/virtual-internships/
 
 
 
