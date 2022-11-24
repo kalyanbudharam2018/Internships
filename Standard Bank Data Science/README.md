@@ -1,33 +1,37 @@
 
-# Prediction of Absenteeism during work time: Project Overview 
+# Prediction of Loan application status: Project Overview 
 
 * Business Problem: Currently the home loan application process is a manual one. It which takes 2-3 days, which mean that the applicant will only be notified after 2-3 days of the application outcome.
 
 * Business Objective: Reduce the amount of time it takes for applicants to be notified about their loan statuses (to a matter of seconds).
 
-Hypothesis: Based on historical data we can use machine learning to predict the loan status of a potential borrower such that the time taken for them to receive their respective statuses is reduced significantly.
+* Hypothesis: Based on historical data we can use machine learning to predict the loan status of a potential borrower such that the time taken for them to receive their respective statuses is reduced significantly.
 
 
-* Created a tool that predicts absenteeism at a company during work time which will helpful to regulate working activity and also explore whether a person presenting certain characteristics is expected to be away from work at some point time or not.
+* Created a tool that predicts the loan status of a potential borrower which will helpful to the bank as well as applicants such that the applicant receives a response immediately after completing their application.
 
-* I have collected data from Kaggle in csv file, Pre-processed (Cleaning/ Analysis) data with Python & SQL, finally saved pre-processed data in csv file.
-* Applied Feature Engineering, Logistic Regression (ML) with sklearn, obtained 73% accuracy, saved model using pickle
-* Model deployed through absenteeism module and Analysed the Predicted Outputs in Tableau.
+
+## Summary:
+*	Worked for 'Loan Prediction’ business problem on historical bank data (dataset@ Client_size-981, 13) by implementing Data pre-processing & Exploratory Data Analysis (EDA with Sweetviz) using SQL, Python & libraries.
+*	Machine Learning Production with AutoML (79%) & Random Forest Classifier (77%) using Scikit-Learn.
+*	Prepared to present the insights to a non-technical audience through communication.
+
 
 ## Dataset:
 This dataset is taken from Kaggle which is famous for it employment service and data has following features:
-*	ID
-*	Reason for Absence
-*	Date
-*	Transportation Expense
-*	Distance to Work 
-*	Age
-*	Daily Work Load Average
-*	Body Mass Index
-*	Education
-*	Children 
-*	Pets
-*	Absenteeism Time in Hours
+*	Loan_ID
+*	Gender             
+*	Married            
+*	Dependents         
+*	Education           
+*	Self_Employed      
+*	ApplicantIncome    
+*	CoapplicantIncome  
+*	LoanAmount         
+*	Loan_Amount_Term    
+*	Credit_History     
+*	Property_Area      
+*	Loan_Status        
 
 
 
