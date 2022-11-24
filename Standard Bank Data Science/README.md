@@ -48,14 +48,9 @@ After collecting the data, I needed to clean it up so that it was usable for our
 Performed EDA on the cleaned data and got various insights, relationships, etc, few of them are as below.
 
 * Loan status details are as follows.
-  Y    68.7296%
-  N    31.2704%
-  
-Gender  Loan_Status    %
-Female  Y              66.9643
-        N              33.0357
-Male    Y              69.3252
-        N              30.6748
+  * Y    68.7296%
+  * N    31.2704%
+
         
 ![download](https://user-images.githubusercontent.com/112246352/203770363-fdac9810-83a0-4864-82f0-dc29f771836f.png)
 
